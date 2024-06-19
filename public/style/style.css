@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html, body {
+    min-height: 100%; 
+    width: 100%; 
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigasibar{
+    display: flex;
+    flex-direction: row;
+    width: 1252px;
+    height: 80px;
+    background-color: #F5F5F2;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navigasibar #img-header{
+    width: 830px;
+}
+
+.navigasibar .nav-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 17px;
+    margin-left: 30px;
+    padding-top:16px;
+}
+
+.sidebar{
+    background-color: #2A9DF4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    height: 859px;
+}
+
+.menu{
+    margin-top: 100px;
+    margin-bottom: 134px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#offcanvasWithBothOptions{
+    background-color: #2A9DF4;
+    width: 252px;
+}
+
+.offcanvas-body{
+    margin-top: 70px;
+}
+
+.side-menu{
+    width: 180px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline;
+    gap: 9px;
+    margin-top: 10px;
+}
+
+.content {
+    position: absolute;
+    width: 1250px;
+    height: 650px;
+}
+
+.card {
+    margin-left: 45px;
+    width: 1170px;
+    flex: 1;
+}
+
+.baris {
+    padding-right: 12px;
+}
+
+footer{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/* Logo Login */
+    .curve {
+        position: fixed;
+        width: 1390px;
+        margin-top: 20px;
+    }
+
+    .curveblue {
+        position: fixed;
+        width: 1500px;
+    }
+
+    .mobil {
+        position: fixed;
+        width: 600px;
+        margin-top: 180px;
+        margin-left: 80px;
+    }
+
+    .BIlogin{
+        position: fixed;
+        width: 200px;
+        margin-top: 100px;
+        margin-left: 910px;
+    }
+
+/* Form Login */
+
+    .login {
+        position: fixed;
+        width: 400px;
+        margin-left: 810px;
+        margin-top: 230px;
+    }
+
+/* Form Registrasi */
+.curveregis{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.regis{
+    position: fixed;
+    width: 350px;
+    margin-left: 120px;
+    margin-top: 150px;
+}
+
+.logoregis{
+    position: fixed;
+    width: 200px;
+    margin-left: 55%;
+    margin-top: 50px;
+}
+
+.form-regis form{
+    position: fixed;
+    width: 500px;
+    margin-left: 45%;
+    padding-top: 160px;
+}
+
+/* CSS untuk tombol status tersedia */
+.available-status {
+    padding: 2px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: green;
+    color: white;
+}
+
+  /* CSS untuk tombol status tidak tersedia */
+.unavailable-status {
+    padding: 2px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: red;
+    color: white;
+}
+
+.button-template{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.tambah-reservasi{  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5px;
+    width: 200px;
+    height: 40px;
+    gap: 10px;
+    color: black;
+    margin-left: 175px;
+}
+
+.tambah-reservasi img{
+    width: 25px;
+    height: 25px;
+}
+
+.line-pot{
+    width: 30px;
+    height: 10px;
+    background-color: #2A9DF4;
+}
+
+
+@media (max-width:480px){
+/* Form Login */
+.curve {
+    position: fixed;
+    width: 1000px;
+    margin-top: 120px;
+}
+
+.curveblue {
+    display: none;
+}
+
+.mobil {
+    display: none;
+}
+
+.BIlogin{
+    position: fixed;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 30%;
+}
+
+.login {
+    position: fixed;
+    width: 300px;
+    margin-left: 20%;
+    margin-top: 190px;
+}
+
+/* Form Registrasi */
+.curveregis{
+    width: 1000px;
+    height: 400px;
+    margin-top: 300px;
+    position: fixed;
+}
+
+.regis{
+    display: none;
+}
+
+.logoregis{
+    position: fixed;
+    width: 200px;
+    margin-left: 30%;
+    margin-top: 50px;
+}
+
+.form-regis form{
+    position: fixed;
+    width: 300px;
+    margin-left: 20%;
+    padding-top: 160px;
+}
+}
